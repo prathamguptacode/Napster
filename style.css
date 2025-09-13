@@ -5,6 +5,7 @@
 }
 body{
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 img, svg{
     display: block;
@@ -13,4 +14,7 @@ img, svg{
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
-
+/* this is added bby pratham on advice of shubham */
+input, button,a{
+    all: unset;
+}
